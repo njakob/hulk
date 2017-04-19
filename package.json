@@ -1,0 +1,44 @@
+{
+  "name": "@njakob/hulk",
+  "version": "1.0.0",
+  "description": "Banner template",
+  "author": "Nicolas Jakob <nicow.jakob@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/njakob/hulk",
+  "repository": "njakob/hulk.git",
+  "bugs": {
+    "url": "https://github.com/njakob/hulk/issues"
+  },
+  "keywords": [
+    "banner",
+    "library",
+    "template"
+  ],
+  "main": "lib/index.js",
+  "scripts": {
+    "clean": "rimraf lib",
+    "build": "npm run clean && npm run build:sources && npm run build:flow",
+    "build:sources": "babel -d lib src",
+    "build:flow": "flow gen-flow-files --out-dir lib src/index.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "flow": "flow check",
+    "test": "npm run lint && npm run flow",
+    "release": "standard-version",
+    "prepublish": "npm run test && npm run build"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-eslint": "^7.2.1",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "eslint": "^3.19.0",
+    "eslint-config-njakob": "^4.3.0",
+    "eslint-plugin-flowtype": "^2.30.4",
+    "eslint-plugin-import": "^2.2.0",
+    "flow-bin": "^0.43.1",
+    "rimraf": "^2.5.4",
+    "standard-version": "^4.0.0"
+  }
+}
