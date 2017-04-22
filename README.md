@@ -17,11 +17,16 @@ With Yarn:
 $ yarn add @njakob/hulk
 ```
 
+## Changelog
+
+See [changelog][CHANGELOG].
+
 ## Licences
 
 `njakob/hulk` is licensed under the [MIT License][licence].
 
 [licence]: LICENSE
+[changelog]: CHANGELOG
 [github:eslint-config]: https://github.com/njakob/eslint-config
 [npm]: https://nodei.co/npm/@njakob/hulk
 [travis]: https://travis-ci.org/njakob/hulk
