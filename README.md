@@ -26,7 +26,7 @@ See [changelog][CHANGELOG].
 `njakob/hulk` is licensed under the [MIT License][licence].
 
 [licence]: LICENSE
-[changelog]: CHANGELOG
+[changelog]: CHANGELOG.md
 [github:eslint-config]: https://github.com/njakob/eslint-config
 [npm]: https://nodei.co/npm/@njakob/hulk
 [travis]: https://travis-ci.org/njakob/hulk
