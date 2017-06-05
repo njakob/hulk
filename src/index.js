@@ -7,7 +7,7 @@ type HulkOptions = {
   repository: string;
 };
 
-export function hulk({ name, version, commitHash, repository }: HulkOptions): string {
+export function banner({ name, version, commitHash, repository }: HulkOptions): string {
   const time = new Date();
 
   return `/*
