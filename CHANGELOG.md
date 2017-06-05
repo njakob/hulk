@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="3.0.0"></a>
+# [3.0.0](https://github.com/njakob/hulk/compare/v2.0.0...v3.0.0) (2017-06-05)
+
+
+### Code Refactoring
+
+* Rename main exported function ([e7a6de2](https://github.com/njakob/hulk/commit/e7a6de2))
+
+
+### Features
+
+* Add commit hash retrieval from Git command line ([2ce97d4](https://github.com/njakob/hulk/commit/2ce97d4))
+
+
+### BREAKING CHANGES
+
+* Function `banner` should be used instead of `hulk`
+
+
+
 <a name="2.0.0"></a>
 # [2.0.0](https://github.com/njakob/hulk/compare/v1.0.0...v2.0.0) (2017-04-22)
 
