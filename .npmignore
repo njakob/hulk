@@ -5,5 +5,6 @@ flow/
 .eslintignore
 .eslintrc
 .flowconfig
+.npmignore
 .travis.yml
 yarn.lock
